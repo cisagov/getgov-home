@@ -22,4 +22,4 @@ jobs:
       - name: Install node dependencies
         run: npm install
       - name: Accessibility scan
-        run: npm run pa11y
+        run: npm run pa11y-ci
